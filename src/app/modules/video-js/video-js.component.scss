@@ -1,0 +1,15 @@
+.video-js {
+  width: 50%;
+  height: 30%;
+  video {
+    width: 100%;
+    height: 100%;
+    position: static;
+  }
+  .vjs-big-play-button {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  }
+}
