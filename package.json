@@ -1,6 +1,6 @@
 {
-  "name": "videojs-player",
-  "version": "0.0.0",
+  "name": "js-player",
+  "version": "1.0.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
