@@ -6,7 +6,7 @@
 ## Step 1
 
 Install it
-npm i videojs-player
+npm i angular-video-js-player
 ## Step 2
 
 Import component in any standalone component
