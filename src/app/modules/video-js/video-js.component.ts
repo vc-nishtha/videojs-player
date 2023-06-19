@@ -1,12 +1,12 @@
 import { NgFor, NgIf } from '@angular/common';
 import { Component, Input, OnDestroy } from '@angular/core';
+import { PlayerKey, StaticUrl, qualitySelector, videoPlayerId } from 'src/app/core/constant/app.constant';
 import { Caption, Video } from 'src/app/core/interfaces/video.interface';
-import { PlayerKey, StaticUrl, qualitySelector, videoPlayerId } from 'src/app/core/routes/constant.ts/app.constant';
-import { LoadScriptService } from 'src/app/core/routes/services/loadscript.service';
+import { LoadScriptService } from 'src/app/core/services/loadscript.service';
 declare let videojs: any;
 
 @Component({
-  selector: 'app-video-js',
+  selector: 'video-js',
   standalone: true,
   templateUrl: './video-js.component.html',
   styleUrls: ['./video-js.component.scss'],
@@ -15,7 +15,11 @@ declare let videojs: any;
 
 export class VideoJsComponent implements OnDestroy {
   player!: any;
-  @Input() videoUrl: Video[] = [];
+  @Input() videoUrl: Video[] = [
+    {
+      url: 'https://d2vebnhym4lldt.cloudfront.net/Film/FilmVideo/FilmVideo-1685354359678-612414716/FilmVideo-1685354359678-612414716.m3u8', label: '360P'
+    }
+  ];
   @Input() captionList: Caption[] = []
   @Input() volumeEnableByKey!: boolean;
   @Input() playPauseByKey!: boolean;

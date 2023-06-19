@@ -28,6 +28,43 @@ import { VideoJsComponent } from 'app-video-js';
         [qualitySelector]=true>
   </app-video-js>
 
+<table>
+    <thead>
+      <tr>
+        <th>Feature</th>
+        <th>Description</th>
+        <th>Key Used</th>
+        <th>Default</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Volume enable by Key </td>
+            <td>It handle volume by arrow up and arrow down.It is an optional key and has boolean value.</td>
+            <td><code>volumeEnableByKey</code></td>
+            <td><code>false</code></td>
+        </tr>
+        <tr>
+            <td>Play Pause by key</td>
+            <td>It handle play pause by space key.It is an optional key and has boolean value.</td>
+            <td><code>playPauseByKey</code></td>
+            <td><code>false</code></td>
+        </tr>
+         <tr>
+            <td>Full Screen Mode</td>
+            <td>It handle fullScreen by double click.It is an optional key and has boolean value.</td>
+            <td><code>fullScreenModeEnable</code></td>
+            <td><code>false</code></td>
+        </tr>
+         <tr>
+            <td>Quality Selector</td>
+            <td>It provide feature for quality option with multiple video.It is an optional key and has boolean value.</td>
+            <td><code>qualitySelector</code></td>
+            <td><code>false</code></td>
+        </tr>
+    </tbody>
+</table>
+
 ## Options
 
 videoUrl is an array with option [{url:string,label:'300P'}]

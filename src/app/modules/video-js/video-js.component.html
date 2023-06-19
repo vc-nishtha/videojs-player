@@ -1,5 +1,4 @@
 <h3>VIDEO PLAYER</h3>
-<button (click)="onPlayVideo()">Play</button>
 <video id="video-player" class="video-js vjs-default-skin">
   <source *ngFor="let item of videoUrl" src="{{ item.url }}" type="application/x-mpegURL" [attr.label]="item.label??''" />
   <ng-container *ngFor="let caption of captionList">
