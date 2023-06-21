@@ -6,7 +6,12 @@
 ## Step 1
 
 Install it
-npm i angular-video-js-player
+```html
+<div class="shadow-box">
+  npm i angular-video-js-player
+</div>
+\\\
+
 ## Step 2
 
 Import component in any standalone component
