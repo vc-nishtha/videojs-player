@@ -10,7 +10,7 @@ Install it
 <div class="shadow-box">
   npm i angular-video-js-player
 </div>
-\\\
+```
 
 ## Step 2
 
