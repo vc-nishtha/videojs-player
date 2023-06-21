@@ -1,6 +1,6 @@
 # Videojs Player
 
- This library was generated with ```html Angular CLI``` version 15.0.0.
+ This library was generated with ```Angular CLI``` version 15.0.0.
 ## How to Use
 
 ## Step 1
